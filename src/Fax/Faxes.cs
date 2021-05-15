@@ -20,6 +20,7 @@ namespace Daborg69.Fax
 			int x = 0;
 			x++;
 			x++;
+			x++;
 		}
 	}
 }
