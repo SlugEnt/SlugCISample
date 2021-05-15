@@ -14,5 +14,11 @@ namespace Daborg69.Fax
 		public string FaxNumber { get; set; }
 
 		public bool SuccessfulConnection { get; set; }
+
+
+		public void ProcessFax () {
+			int x = 0;
+			x++;
+		}
 	}
 }
