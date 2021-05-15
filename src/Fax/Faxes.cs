@@ -6,12 +6,13 @@ namespace Daborg69.Fax
 	{
 		public Faxes (int n) {
 			NumberOfFaxes = n;
-
 		}
 
 
 		public int NumberOfFaxes { get; set; }
 
 		public string FaxNumber { get; set; }
+
+		public bool SuccessfulConnection { get; set; }
 	}
 }
