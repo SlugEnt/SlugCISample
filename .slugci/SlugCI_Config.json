@@ -1,0 +1,43 @@
+{
+  "HasChanged": false,
+  "UseCodeCoverage": true,
+  "CodeCoverageThreshold": 90,
+  "DeployProdRoot": "_",
+  "DeployTestRoot": "_",
+  "DeployDevRoot": "_",
+  "DeployToVersionedFolder": true,
+  "DeployFolderUsesSemVer": true,
+  "DeployToAssemblyFolders": false,
+  "Projects": [
+    {
+      "Name": "coreLib",
+      "Deploy": "Nuget",
+      "Framework": "netcoreapp3.1",
+      "IsTestProject": false
+    },
+    {
+      "Name": "Fax",
+      "Deploy": "Nuget",
+      "Framework": "netstandard2.0",
+      "IsTestProject": false
+    },
+    {
+      "Name": "Independent",
+      "Deploy": "Copy",
+      "Framework": "netcoreapp3.1",
+      "IsTestProject": false
+    },
+    {
+      "Name": "Printer",
+      "Deploy": "Nuget",
+      "Framework": "netstandard2.0",
+      "IsTestProject": false
+    },
+    {
+      "Name": "TestLibraries",
+      "Deploy": "None",
+      "Framework": "netcoreapp3.1",
+      "IsTestProject": true
+    }
+  ]
+}
