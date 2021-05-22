@@ -26,6 +26,7 @@ namespace Daborg69.Fax
 			x++;
 			x += 2;
 			x += 2;
+			x += 2;
 		}
 	}
 }
