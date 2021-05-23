@@ -26,6 +26,7 @@ namespace Printer
 			Projects = new List<Item>();
 			int y = 0;
 			y++;
+			y += 2;
 		}
 
 		/// <summary>
