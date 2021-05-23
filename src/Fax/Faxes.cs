@@ -18,6 +18,7 @@ namespace Daborg69.Fax
 
 		public void ProcessFax () {
 			int x = 0;
+			x += 2;
 			x++;
 			x++;
 			x++;
