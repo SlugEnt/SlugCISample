@@ -20,6 +20,8 @@ namespace Daborg69.Utility
 			Console.WriteLine("Still Printing...");
 			Console.WriteLine("Still Printing...");
 			Console.WriteLine("Still Printing...");
+			Console.WriteLine("Stalled...");
+			Console.WriteLine("Jammed...");
 		}
 	}
 }
