@@ -25,6 +25,7 @@ namespace Daborg69.Utility
 			Console.WriteLine("Reporting Jam...");
 			Console.WriteLine("Ink Low");
 			Console.WriteLine("Red Ink Loaded...");
+			Console.WriteLine("N Dev");
 		}
 	}
 }
