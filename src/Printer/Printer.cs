@@ -28,6 +28,7 @@ namespace Daborg69.Utility
 			Console.WriteLine("N Dev");
 			Console.WriteLine("Blue Ink Init...");
 			Console.WriteLine("Yellow Ink Init...");
+			Console.WriteLine("Yellow Ink Init...2");
 		}
 	}
 }
