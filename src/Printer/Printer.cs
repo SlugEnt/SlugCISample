@@ -31,6 +31,7 @@ namespace Daborg69.Utility
 			Console.WriteLine("Yellow Ink Init...2");
 			Console.WriteLine("Green Ink Init...2");
 			Console.WriteLine("Green Ink Out!");
+			Console.WriteLine("Green Ink Replenished");
 		}
 	
 

@@ -8,7 +8,7 @@
   "DeployDevRoot": "_",
   "DeployToVersionedFolder": true,
   "DeployFolderUsesSemVer": true,
-  "DeployToAssemblyFolders": false,
+  "DeployToAssemblyFolders": true,
   "GitRemote": null,
   "Projects": [
     {
