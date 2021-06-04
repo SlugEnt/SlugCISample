@@ -1,0 +1,18 @@
+{
+  "name": "@sheakley/mco.unity.common",
+  "version": "0.12.10",
+  "description": "Class library that contains all the common public objects for Sheakley.MCO.Unity.* based applications.",
+  "scripts": {
+    "copy": "copy package.json dist",
+    "pack_publish": "del /f /q /s dist && tsc && npm run copy && cd dist && npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "publishConfig": {
+    "registry": "http://coderepo.sheakley.com:8081/repository/shICS_NPM_Dev/"
+  }
+}
