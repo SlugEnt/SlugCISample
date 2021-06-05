@@ -1,10 +1,13 @@
 {
-  "name": "@sheakley/mco.unity.common",
-  "version": "0.12.10",
-  "description": "Class library that contains all the common public objects for Sheakley.MCO.Unity.* based applications.",
+  "name": "@slugent/test.shared",
+  "version": "0.23.5",
+  "versionFull": "0.23.5-alpha.1",
+  "description": "Class library.",
   "scripts": {
     "copy": "copy package.json dist",
-    "pack_publish": "del /f /q /s dist && tsc && npm run copy && cd dist && npm publish2"
+    "packPublish": null,
+    "pack": "del /f /q /s dist \u0026\u0026 tsc \u0026\u0026 npm run copy",
+    "publish": "cd dist \u0026\u0026 npm publish"
   },
   "keywords": [],
   "author": "",
