@@ -1,7 +1,7 @@
 {
   "Name": "@slugent/test.shared",
-  "Version": "0.23.4",
-  "VersionFull": "0.23.4-alpha.1",
+  "Version": "0.23.5",
+  "VersionFull": "0.23.5-alpha.1",
   "Description": "Class library that contains all the common public objects for Sheakley.MCO.Unity.* based applications.",
   "Scripts": {
     "Copy": "copy package.json dist",
