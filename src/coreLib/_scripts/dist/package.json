@@ -16,6 +16,6 @@
     "typescript": "^3.5.3"
   },
   "publishConfig": {
-    "registry": "http://coderepo.sheakley.com:8081/repository/shICS_NPM_Dev/"
+    "registry": "http://repo.slugent.org:8081/repository/dev/"
   }
 }
