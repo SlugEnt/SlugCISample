@@ -1,21 +1,21 @@
 {
-  "Name": "@slugent/test.shared",
-  "Version": "0.23.5",
-  "VersionFull": "0.23.5-alpha.1",
-  "Description": "Class library.",
-  "Scripts": {
-    "Copy": "copy package.json dist",
-    "PackPublish": null,
+  "name": "@slugent/test.shared",
+  "version": "0.23.5",
+  "versionFull": "0.23.5-alpha.1",
+  "description": "Class library.",
+  "scripts": {
+    "copy": "copy package.json dist",
+    "packPublish": null,
     "pack": "del /f /q /s dist \u0026\u0026 tsc \u0026\u0026 npm run copy",
-    "Publish": "cd dist \u0026\u0026 npm publish"
+    "publish": "cd dist \u0026\u0026 npm publish"
   },
-  "Keywords": [],
-  "Author": "",
-  "License": "MIT",
-  "DevDependencies": {
-    "Typescript": "^3.5.3"
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.5.3"
   },
-  "PublishConfig": {
-    "Registry": "http://coderepo.sheakley.com:8081/repository/shICS_NPM_Dev/"
+  "publishConfig": {
+    "registry": "http://coderepo.sheakley.com:8081/repository/shICS_NPM_Dev/"
   }
 }
