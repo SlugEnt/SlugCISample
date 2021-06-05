@@ -14,7 +14,7 @@
     {
       "Name": "coreLib",
       "Deploy": "Nuget",
-      "HasTypeWriterScripts": false,
+      "HasTypeWriterScripts": true,
       "Framework": "netcoreapp3.1",
       "IsTestProject": false
     },
