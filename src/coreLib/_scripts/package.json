@@ -1,0 +1,21 @@
+{
+  "name": "@slugent/test.shared",
+  "version": "2.1.0",
+  "versionFull": "2.1.0-alpha-0001b",
+  "description": "Class library.",
+  "scripts": {
+    "copy": "copy package.json dist",
+    "packPublish": null,
+    "pack": "del /f /q /s dist \u0026\u0026 tsc \u0026\u0026 npm run copy",
+    "publishTW": "cd dist \u0026\u0026 npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "publishConfig": {
+    "registry": "http://repo.slugent.org:8081/repository/dev/"
+  }
+}

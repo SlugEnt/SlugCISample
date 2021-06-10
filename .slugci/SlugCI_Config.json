@@ -1,5 +1,5 @@
 {
-  "HasChanged": false,
+  "ConfigStructureVersion": "0.10.0",
   "UseCodeCoverage": true,
   "CodeCoverageThreshold": 90,
   "DeployProdRoot": "_",
@@ -14,31 +14,31 @@
     {
       "Name": "coreLib",
       "Deploy": "Nuget",
-      "Framework": "netcoreapp3.1",
+      "HasTypeWriterScripts": true,
       "IsTestProject": false
     },
     {
       "Name": "Fax",
       "Deploy": "Nuget",
-      "Framework": "netstandard2.0",
+      "HasTypeWriterScripts": false,
       "IsTestProject": false
     },
     {
       "Name": "Independent",
       "Deploy": "Copy",
-      "Framework": "netcoreapp3.1",
+      "HasTypeWriterScripts": false,
       "IsTestProject": false
     },
     {
       "Name": "Printer",
       "Deploy": "Nuget",
-      "Framework": "netstandard2.0",
+      "HasTypeWriterScripts": false,
       "IsTestProject": false
     },
     {
       "Name": "TestLibraries",
       "Deploy": "None",
-      "Framework": "netcoreapp3.1",
+      "HasTypeWriterScripts": false,
       "IsTestProject": true
     }
   ]
