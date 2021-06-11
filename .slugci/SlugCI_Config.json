@@ -1,5 +1,5 @@
 {
-  "ConfigStructureVersion": "0.10.0",
+  "ConfigStructureVersion": "0.22.0",
   "UseCodeCoverage": true,
   "CodeCoverageThreshold": 90,
   "DeployProdRoot": "_",
@@ -40,6 +40,11 @@
       "Deploy": "None",
       "HasTypeWriterScripts": false,
       "IsTestProject": true
+    }
+  ],
+  "AngularProjects": [
+    {
+      "Name": "sample.web"
     }
   ]
 }
