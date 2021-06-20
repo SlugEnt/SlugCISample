@@ -1,5 +1,5 @@
 {
-  "ConfigStructureVersion": "0.22.0",
+  "ConfigStructureVersion": "0.23.0",
   "UseCodeCoverage": true,
   "CodeCoverageThreshold": 90,
   "DeployProdRoot": "_",
@@ -10,6 +10,7 @@
   "DeployFolderUsesSemVer": true,
   "DeployToAssemblyFolders": true,
   "GitRemote": null,
+  "AngularDeployRootName": null,
   "Projects": [
     {
       "Name": "coreLib",
