@@ -1,5 +1,5 @@
 {
-  "ConfigStructureVersion": "0.25.0",
+  "ConfigStructureVersion": "0.26.0",
   "UseCodeCoverage": true,
   "CodeCoverageThreshold": 90,
   "DeployProdRoot": "_",
@@ -41,6 +41,12 @@
       "Deploy": "None",
       "HasTypeWriterScripts": false,
       "IsTestProject": true
+    },
+    {
+      "Name": "ToolExample",
+      "Deploy": "Tool",
+      "HasTypeWriterScripts": false,
+      "IsTestProject": false
     }
   ],
   "AngularProjects": [
