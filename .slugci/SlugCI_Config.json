@@ -1,7 +1,7 @@
 {
   "ConfigStructureVersion": "0.26.0",
   "UseCodeCoverage": true,
-  "CodeCoverageThreshold": 90,
+  "CodeCoverageThreshold": 70,
   "DeployProdRoot": "_",
   "DeployAlphaRoot": "_",
   "DeployBetaRoot": "_",
