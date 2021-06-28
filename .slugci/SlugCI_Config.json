@@ -44,7 +44,7 @@
     },
     {
       "Name": "ToolExample",
-      "Deploy": "Tool",
+      "Deploy": "None",
       "HasTypeWriterScripts": false,
       "IsTestProject": false
     }
