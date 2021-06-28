@@ -1,7 +1,7 @@
 {
-  "ConfigStructureVersion": "0.10.0",
+  "ConfigStructureVersion": "0.27.0",
   "UseCodeCoverage": true,
-  "CodeCoverageThreshold": 90,
+  "CodeCoverageThreshold": 10,
   "DeployProdRoot": "_",
   "DeployAlphaRoot": "_",
   "DeployBetaRoot": "_",
@@ -10,6 +10,7 @@
   "DeployFolderUsesSemVer": true,
   "DeployToAssemblyFolders": true,
   "GitRemote": null,
+  "AngularDeployRootName": null,
   "Projects": [
     {
       "Name": "coreLib",
@@ -40,6 +41,17 @@
       "Deploy": "None",
       "HasTypeWriterScripts": false,
       "IsTestProject": true
+    },
+    {
+      "Name": "ToolExample",
+      "Deploy": "Tool",
+      "HasTypeWriterScripts": false,
+      "IsTestProject": false
+    }
+  ],
+  "AngularProjects": [
+    {
+      "Name": "sample.web"
     }
   ]
 }
