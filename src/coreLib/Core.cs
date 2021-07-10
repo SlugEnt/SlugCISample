@@ -12,7 +12,7 @@ namespace daborg69
 		private int a = 1;
 		private long w = 0;
 
-		j = 
+		
 
 		public Core()
 		{
