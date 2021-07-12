@@ -1,3 +1,4 @@
+using System;
 using daborg69;
 using Daborg69.Fax;
 using NUnit.Framework;
@@ -43,5 +44,11 @@ namespace UnitTester
 			Assert.AreEqual(9, fax.NumberOfFaxes);
 
 		}
+
+		/*
+		[Test]
+		public void FailingTest () {
+			throw new NotImplementedException();
+		}*/
 	}
 }

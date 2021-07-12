@@ -12,6 +12,7 @@
     <PackageId>dotnet-slugent-exampletool</PackageId>
     <ToolCommandName>exampleTool</ToolCommandName>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
   </PropertyGroup>
 
 </Project>
