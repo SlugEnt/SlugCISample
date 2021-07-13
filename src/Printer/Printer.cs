@@ -34,6 +34,7 @@ namespace Daborg69.Utility
 			Console.WriteLine("Green Ink Replenished");
 			Console.WriteLine("Broken");
 			Console.WriteLine("Broken");
+			Console.WriteLine("Broken");
 		}
 	
 
