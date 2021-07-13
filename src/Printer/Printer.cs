@@ -36,6 +36,7 @@ namespace Daborg69.Utility
 			Console.WriteLine("Broken");
 			Console.WriteLine("Broken");
 			Console.WriteLine("Fixed");
+			Console.WriteLine("Fixed");
 		}
 	
 
