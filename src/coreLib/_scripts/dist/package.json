@@ -1,7 +1,7 @@
 {
   "name": "@slugent/test.shared",
-  "version": "2.3.1",
-  "versionFull": "2.3.1-alpha-0000",
+  "version": "2.3.2",
+  "versionFull": "2.3.2-alpha-0001a",
   "description": "Class library.",
   "scripts": {
     "copy": "copy package.json dist",
