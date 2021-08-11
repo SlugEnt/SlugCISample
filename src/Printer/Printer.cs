@@ -32,6 +32,14 @@ namespace Daborg69.Utility
 			Console.WriteLine("Green Ink Init...2");
 			Console.WriteLine("Green Ink Out!");
 			Console.WriteLine("Green Ink Replenished");
+			Console.WriteLine("Broken");
+			Console.WriteLine("Broken");
+			Console.WriteLine("Broken");
+			Console.WriteLine("Fixed");
+			Console.WriteLine("Fixed");
+			Console.WriteLine("Blink...Blink....");
+			Console.WriteLine("Alarm...Alarm...");
+			Console.WriteLine("Oops");
 		}
 	
 
