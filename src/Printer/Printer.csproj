@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <AssemblyVersion>1.0.0.31</AssemblyVersion>
     <AssemblyName>Daborg69.Utility.Printer</AssemblyName>
   </PropertyGroup>

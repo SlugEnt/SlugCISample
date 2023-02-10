@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.1;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net7.0</TargetFrameworks>
     <AssemblyVersion>1.0.0.29</AssemblyVersion>
     <AssemblyName>Daborg69.CoreLib</AssemblyName>
   </PropertyGroup>
